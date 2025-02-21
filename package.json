@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@inertiajs/vue3": "^1.0.14",
+        "@metamask/providers": "^20.0.0",
+        "@tailwindcss/forms": "^0.5.7",
+        "@tailwindcss/typography": "^0.5.10",
+        "@types/react": "^19.0.10",
+        "@types/react-dom": "^19.0.4",
+        "@vitejs/plugin-react": "^4.3.4",
+        "@vitejs/plugin-vue": "^5.0.0",
+        "autoprefixer": "^10.4.16",
+        "axios": "^1.7.4",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "postcss": "^8.4.32",
+        "tailwindcss": "^3.4.0",
+        "vite": "^6.1.1",
+        "vue": "^3.3.13"
+    },
+    "dependencies": {
+        "@headlessui/react": "^2.2.0",
+        "@inertiajs/react": "^2.0.3",
+        "@rainbow-me/rainbowkit": "^2.2.3",
+        "@wagmi/core": "^2.16.4",
+        "ethers": "^6.13.5",
+        "framer-motion": "^12.4.7",
+        "git": "^0.1.5",
+        "react-hook-form": "^7.54.2",
+        "react-toastify": "^11.0.3",
+        "viem": "^2.23.3",
+        "wagmi": "^2.14.11"
+    }
+}
