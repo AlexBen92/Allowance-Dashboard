@@ -1,25 +1,7 @@
 Allowance Dashboard
 Description
 
-The Allowance Dashboard is a full-stack web application that allows users to manage ERC-20 token allowances on the Ethereum blockchain. It provides an intuitive user interface to view, add, modify, and revoke allowances granted to specific addresses.
-Key Features
-
-    Connect with MetaMask: Users connect to the application using their MetaMask wallet (or any other wallet that injects window.ethereum).
-    Dashboard:
-        Displays a list of all existing allowances, including:
-            ERC-20 contract address.
-            Token owner's address.
-            Authorized spender's address.
-            Allowance amount (in wei and a human-readable format).
-            Actions: Edit, Delete.
-        Ability to add new allowances via a modal form.
-        Ability to modify and revoke existing allowances.
-    Dedicated Login Page (Recommended Approach): A separate /connect-wallet page allows users to explicitly connect with MetaMask before accessing the dashboard. This provides a better user experience and separation of concerns.
-    Connection Persistence: The application maintains the user's connection state (even after page reloads or browser closures) using the Laravel session.
-    Protection Middleware: A custom Laravel middleware (CheckEthereumConnection) protects the dashboard route (/dashboard), ensuring that only users connected with MetaMask can access it.
-    Error Handling: The application handles connection errors, form validation errors, and blockchain communication errors, displaying clear error messages to the user (via react-toastify).
-    Animations: The application uses framer-motion for smooth animations.
-    Styling: The application uses orange, white, and black colors, implemented with Tailwind CSS.
+The Allowance Dashboard is a full-stack web application that allows users to manage ERC-20 token allowances on the Ethereum blockchain. It provides an intuitive user interface to view, add, modify, and revoke allowances granted to specific addresses
 
 Technical Stack
 
